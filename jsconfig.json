@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "Assets/*": ["App/Assets/*"],
+      "Assets": ["App/Assets"],
+      "Components/*": ["App/Components/*"],
+      "Components": ["App/Components"],
+      "Configs/*": ["App/Configs/*"],
+      "Configs": ["App/Configs"],
+      "Containers/*": ["App/Containers/*"],
+      "Containers": ["App/Containers"],
+      "Hooks/*": ["App/Hooks/*"],
+      "Hooks": ["App/Hooks"],
+      "Lang/*": ["App/Lang/*"],
+      "Lang": ["App/Lang"],
+      "Navigations/*": ["App/Navigations/*"],
+      "Navigations": ["App/Navigations"],
+      "Services/*": ["App/Services/*"],
+      "Services": ["App/Services"],
+      "Store/*": ["App/Store/*"],
+      "Store": ["App/Store"],
+      "Utils/*": ["App/Utils/*"]
+    }
+  }
+}
