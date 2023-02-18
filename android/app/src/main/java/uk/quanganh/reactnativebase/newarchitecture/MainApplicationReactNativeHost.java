@@ -1,4 +1,4 @@
-package vn.siten.test2.occ.newarchitecture;
+package uk.quanganh.reactnativebase.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import vn.siten.test2.occ.BuildConfig;
-import vn.siten.test2.occ.newarchitecture.components.MainComponentsRegistry;
-import vn.siten.test2.occ.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import uk.quanganh.reactnativebase.BuildConfig;
+import uk.quanganh.reactnativebase.newarchitecture.components.MainComponentsRegistry;
+import uk.quanganh.reactnativebase.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

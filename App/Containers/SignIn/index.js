@@ -82,5 +82,6 @@ const styles = StyleSheet.create({
   input: {
     fontSize: 16,
     paddingHorizontal: 16,
+    color: '#000',
   },
 });

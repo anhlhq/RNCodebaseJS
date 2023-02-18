@@ -35,12 +35,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "vn.siten.test2.occ",
+    package = "uk.quanganh.reactnativebase",
 )
 
 android_resource(
     name = "res",
-    package = "vn.siten.test2.occ",
+    package = "uk.quanganh.reactnativebase",
     res = "src/main/res",
 )
 

@@ -6,7 +6,7 @@ import {setLang} from 'Store/Reducers/langSlice';
 import {useTranslation} from 'react-i18next';
 
 export const useLang = () => {
-  const {lang} = useSelector((state: RootState) => state.lang);
+  const {lang} = useSelector(state => state.lang);
 
   useEffect(() => {
     i18n.changeLanguage(lang);
@@ -16,7 +16,7 @@ export const useLang = () => {
 export const useChangeLang = () => {
   const dispatch = useDispatch();
 
-  const onChangeLang = (lang: string) => {
+  const onChangeLang = lang => {
     dispatch(setLang(lang === 'vi' ? 'en' : 'vi'));
   };
 

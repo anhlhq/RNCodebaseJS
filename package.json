@@ -1,5 +1,5 @@
 {
-  "name": "occapppoc",
+  "name": "reactnativebase",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -8,13 +8,11 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "bootsplash": "react-native generate-bootsplash Assets/Images/Logo.png --background-color=FFFFFF --logo-width=200 --assets-path=Assets/Image/BootSplash --flavor=main"
+    "bootsplash": "react-native generate-bootsplash Assets/Images/Logo.png --background-color=FFFFFF --logo-width=100 --assets-path=Assets/Image/BootSplash --flavor=main"
   },
   "dependencies": {
     "@gorhom/bottom-sheet": "^4",
     "@react-native-async-storage/async-storage": "^1.17.7",
-    "@react-native-firebase/app": "^15.2.0",
-    "@react-native-firebase/messaging": "^15.2.0",
     "@react-native-picker/picker": "^2.4.2",
     "@react-navigation/bottom-tabs": "^6.3.2",
     "@react-navigation/native": "^6.0.11",

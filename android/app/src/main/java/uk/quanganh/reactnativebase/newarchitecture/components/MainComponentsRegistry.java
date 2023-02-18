@@ -1,4 +1,4 @@
-package vn.siten.test2.occ.newarchitecture.components;
+package uk.quanganh.reactnativebase.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

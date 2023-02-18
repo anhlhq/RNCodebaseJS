@@ -1,7 +1,7 @@
 import {Colors} from 'react-native-ui-lib';
 
 Colors.loadColors({
-  mainText: '#222',
+  mainText: '#222222',
   grey0: '#FFFFFF',
   grey1: '#FAFAFA',
   grey2: '#F5F5F5',

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="vn.siten.test2.occ">
+  package="uk.quanganh.reactnativebase">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

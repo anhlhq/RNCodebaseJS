@@ -57,8 +57,9 @@ export const useLogin = () => {
             isLogged: true,
           }),
         );
+        console.log(data);
         setDefaultHeaders({
-          Authorization: `${data.type} ${data.token}`,
+          Authorization: `Bearer ${data.access_token}`,
         });
         Navigator.reset('TabNavigation');
       },
